@@ -34,7 +34,7 @@ const Timer = () => {
       );
     } else {
       clearInterval(timerRef.current);
-      navigate("/target");
+      navigate("/countdown-timer/target");
     }
   };
 
