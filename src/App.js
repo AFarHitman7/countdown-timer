@@ -7,11 +7,11 @@ import Target from "./pages/target";
 function App() {
   const router = createBrowserRouter([
     {
-      path: "/",
+      path: "/countdown-timer/",
       element: <Timer />,
     },
     {
-      path: "/target",
+      path: "/countdown-timer/target",
       element: <Target />,
     },
   ]);
